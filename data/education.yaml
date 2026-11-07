@@ -1,0 +1,15 @@
+schools:
+  - institution: "Techno International Batanagar"
+    degree: "Bachelor of Technology in Computer Science & Engineering"
+    gpa: "GPA: 8.43"
+    affiliations:
+      - "Approved by AICTE, Government of India"
+      - "Affiliated to West Bengal University of Technology"
+
+awards:
+  - text: "Participated in Smart Odisha Hackathon 2018, BPUT, 13th November 2018 - 14th November 2018"
+    class: "mb-2"
+  - text: "Winner at Technical Quiz Contest, CSI Student Branch, Techno International Batanagar, 10th October 2018"
+    class: "mb-2"
+  - text: '2<sup>nd</sup> Runner Up at Technical Presentation Contest on Innovative Project Ideas organized by ACM Student Chapter, Techno International Batanagar, 10th August 2018'
+    class: ""

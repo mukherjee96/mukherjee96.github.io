@@ -1,0 +1,16 @@
+baseURL: "https://mukherjee96.github.io/"
+title: "Aritra Mukherjee"
+languageCode: "en-us"
+
+# Disable taxonomies as this is a single-page resume site
+disableKinds:
+  - taxonomy
+  - term
+
+params:
+  description: "Software Engineer, Blogger"
+  author: "Aritra Mukherjee (@mukherjee96)"
+  theme_color: "#500075"
+  og_image: "assets/img/fb-profile.png"
+  twitter_image: "assets/img/profile.png"
+  twitter_site: "@mukherjee_96"

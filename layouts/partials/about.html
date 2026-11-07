@@ -1,0 +1,26 @@
+{{ $p := .Site.Data.profile }}
+<section class="resume-section px-3 pb-3 p-lg-5 d-flex align-items-center justify-content-center top-section about"
+  id="about">
+  <div class="w-100">
+    <span>
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{{ $p.avatar | relURL }}"
+        alt="Profile picture" loading="lazy">
+    </span>
+    <h2 class="mb-0">{{ $p.name }}</h2>
+    <div class="subheading mb-5 pr-2">
+      <a href="mailto:{{ $p.email }}">{{ $p.email }}</a>
+    </div>
+    <div class="intro">
+      <p class="lead pr-1 opener">
+        {{ $p.opener_html | safeHTML }}
+      </p>
+    </div>
+    <div class="social mt-5">
+      {{ range $p.social_links }}
+      <a href="{{ .url }}">
+        <i class="{{ .icon }}" title="{{ .name }}"></i>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ partial "head.html" . }}
+<body id="page-top">
+  {{ partial "nav.html" . }}
+  {{ partial "loader.html" . }}
+
+  <div class="container-fluid p-0" data-bs-spy="scroll" data-bs-target="#sideNav">
+    {{ block "main" . }}{{ end }}
+  </div>
+
+  {{ partial "scripts.html" . }}
+</body>
+</html>

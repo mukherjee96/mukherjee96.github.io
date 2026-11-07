@@ -1,0 +1,85 @@
+projects:
+  - id: "crash-fingerprint"
+    title: "Crash Fingerprint Investigation Portal"
+    tech: "React, Google Material UI Library, Node.js, Docker, Microsoft SQL Server, Jenkins"
+    intro: "Web based tools enabling the Performance and Stability Team to efficiently investigate crashes."
+    key_features_heading: "Key features:"
+    feature_groups:
+      - title: "Fingerprint Search"
+        items:
+          - "Searchable, sortable, customizable data tables."
+          - "See crash occurrences for a particular fingerprint."
+          - "Filter occurrences based on client name, HNA user name, server name and crash date range."
+          - "Modern Crash Trend graph displaying crash trend based on selected filters."
+          - "Expand each occurrence to reveal formatted and searchable Call Stack."
+      - title: "Query Builder"
+        items:
+          - "Run custom queries on the PSR database."
+          - "Supported clauses: SELECT, WHERE, LIKE, GROUP BY, ORDER BY."
+          - "WHERE, LIKE, GROUP BY and ORDER BY clauses are optional."
+          - "Built query can be edited and previewed before executing."
+          - "Query results are displayed in fully searchable table."
+    buttons:
+      - text: "Unavailable"
+        icon: "fas fa-external-link-alt"
+        disabled: true
+      - text: "Unavailable"
+        icon: "fab fa-github"
+        disabled: true
+        style: "pointer-events: none;"
+
+  - title: "PostMate"
+    tech: "Ionic, Angular, Firebase, Cloud Firestore"
+    description_html: >
+      PostMate is a Progressive Web App for creating cloud-based
+      social media post templates. It's aimed at digital marketers,
+      bloggers and brands who publish lots of content on social media
+      on a daily basis.
+      <a href="https://dev.to/mukherjee96/i-built-postmate-a-pwa-for-creating-managing-social-media-post-templates-1p14">Read
+      More</a>
+    buttons:
+      - text: "See project"
+        icon: "fas fa-external-link-alt"
+        url: "https://postmate-progressive.web.app"
+      - text: "Github"
+        icon: "fab fa-github"
+        url: "https://github.com/mukherjee96/postmate"
+
+  - title: "Hue"
+    tech: "Bootstrap 4, JavaScript, The Color API"
+    description_html: >
+      Made valuable contributions to Hue, a Progressive Web App for designers, content creators and
+      digital marketers. Hue can be used for generating colours in HEX
+      and converting any colour in HEX to other colour formats. It
+      currently supports RGB, CMYK, HSV, HSL and XYZ. The colours are
+      generated in-app and converted using
+      <a href="https://www.thecolorapi.com/">The Color API</a>. Hue
+      also preserves a history of the last ten colours generated using
+      the browser's LocalStorage API.
+    buttons:
+      - text: "See project"
+        icon: "fas fa-external-link-alt"
+        url: "https://adritaroy21.github.io/hue/"
+      - text: "Github"
+        icon: "fab fa-github"
+        url: "https://github.com/adritaroy21/hue"
+
+  - id: "job-portal"
+    title: "Job Portal"
+    tech: "Bootstrap 4, PHP 7, MySQL"
+    intro: "Built a simple job portal with the following key features:"
+    ordered_items:
+      - "Job Search with Title, Designation, Salary, Experience and Location"
+      - "Real-time search suggestions"
+      - "Employers can add/remove/edit jobs, manage applicants"
+      - "Job Highlighting from Admin Panel"
+      - "User verification from Admin Panel"
+      - "Responsive design"
+      - "Advertisement space"
+    buttons:
+      - text: "Unavailable"
+        icon: "fas fa-external-link-alt"
+        disabled: true
+      - text: "Github"
+        icon: "fab fa-github"
+        url: "https://github.com/mukherjee96/simple-job-portal"

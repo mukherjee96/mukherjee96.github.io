@@ -1,0 +1,73 @@
+items:
+  - role: "Software Engineer at Oracle"
+    period: "October 2023 - Present"
+    description: >
+      As a crucial member of the Oracle Cerner Millennium IAM team, I contribute to cutting-edge authorization
+      solutions for applications and services within Oracle Cerner's renowned Millennium EHR and Orion
+      platforms, specializing in safeguarding patient data privacy globally. My role encompasses designing,
+      developing, and maintaining vital microservices for Millennium platform services, leveraging emerging
+      technologies for robust technical designs. I actively collaborate cross-functionally with diverse teams to
+      enhance and validate our solutions, ensuring security and compliance in our healthcare offerings.
+
+  - role: "Software Engineer at Cerner Corporation"
+    period: "July 2020 - September 2023"
+    description: >
+      Vital member of the Cerner Millennium IAM, responsible for developing and maintaining authorization
+      solutions for Cerner Millennium apps and services. My expertise lay in various Millennium authorization
+      models deployed to protect patient data privacy across multiple geographies. I developed and maintained
+      Java/C++ libraries and microservices for the Millennium platform, investigated solutions, created
+      technical designs, and reviewed designs from other team members. I collaborated with teams from different
+      focus areas to deliver enhancements and validate results. Additionally, I mentored interns and provided
+      guidance to new joiners.
+
+  - role: "Software Intern at Cerner Corporation"
+    period: "February 2020 - July 2020"
+    project_label: "Crash Fingerprint Investigation Portal"
+    project_anchor: "#crash-fingerprint"
+    description: >
+      I developed a full-stack web application using React, Node.js, and Microsoft SQL Server. I authored unit
+      tests for both frontend and backend source code and gained proficiency in mocking techniques. To
+      facilitate local development, I employed Docker to host the MS SQL Server. Furthermore, I established a
+      Jenkins pipeline and seamlessly integrated it with GitHub, automating the build process for pull requests
+      and the default branch. I consistently delivered scrum updates, incorporated feedback, and conducted
+      feature demos as part of the team's agile workflow.
+
+  - role: "Summer Intern at Sikharthy Educational Services LLP"
+    period: "June 2019 - August 2019"
+    project_label: "Responsive Job Portal"
+    project_anchor: "#job-portal"
+    description: >
+      I collaborated closely with the Product Manager to grasp project requirements thoroughly. My role involved
+      planning and breaking down tasks efficiently within the team. Using Bootstrap, PHP, MySQL, and XAMPP, I
+      successfully developed a job portal and made continuous improvements based on feedback received. Finally,
+      I deployed the finished product on the organization's website, ensuring its availability to users.
+
+  - role: "Founder, Web Developer, Technical Blogger at GeekyMinds"
+    period: "December 2018 - December 2022"
+    lead: "Web development and programming tutorials served with detailed software reviews and a dash of tech news!"
+    social_text: >
+      Visit GeekyMinds on
+      <a href="https://www.facebook.com/geekymindsblog/" target="_blank" rel="noopener">
+        <nobr><i class="fa-brands fa-facebook"></i> Facebook
+      </a></nobr> and
+      <a href="https://www.instagram.com/geekymindsblog/" target="_blank" rel="noopener">
+        <nobr><i class="fa-brands fa-instagram"></i> Instagram
+      </a>.</nobr>
+    note: "The GeekyMinds website was discontinued in 2022 but continues to live on the Wayback Machine :)"
+    button:
+      text: "Visit GeekyMinds"
+      icon: "fas fa-external-link-alt"
+      url: "https://web.archive.org/web/20221007234110/https://geekyminds.co.in/"
+
+publication:
+  heading: "Publication"
+  subheading: "IEEE Xplore Digital Library (April 2019 - Present)"
+  title: "Centralized Alumni Management System (CAMS) - A Prototype Proposal"
+  description: >
+    CAMS is an umbrella platform for alumni to share, network and
+    communicate among themselves and their alma mater. This paper proposes a centralized system for alumni
+    management which is institution independent and concentrates on alumni network pan organizations.
+  button:
+    text: "See Publication"
+    icon: "fas fa-external-link-alt"
+    url: "https://ieeexplore.ieee.org/document/8701383"

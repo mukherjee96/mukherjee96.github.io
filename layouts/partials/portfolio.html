@@ -1,0 +1,56 @@
+<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="portfolio">
+  <div class="w-100">
+    <h2 class="mb-5">Portfolio</h2>
+
+    {{ range .Site.Data.portfolio.projects }}
+    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"{{ with .id }} id="{{ . }}"{{ end }}>
+      <div class="resume-content">
+        <h3 class="mb-0">{{ .title }}</h3>
+        <div class="subheading mb-3">
+          {{ .tech }}
+        </div>
+        <div>
+          {{ with .intro }}
+          <p>{{ . }}</p>
+          {{ end }}
+          {{ with .key_features_heading }}
+          <p>{{ . }}</p>
+          {{ end }}
+          {{ with .feature_groups }}
+          <ol>
+            {{ range . }}
+            <li>{{ .title }}</li>
+            <ul>
+              {{ range .items }}
+              <li>{{ . }}</li>
+              {{ end }}
+            </ul>
+            {{ end }}
+          </ol>
+          {{ end }}
+          {{ with .ordered_items }}
+          <ol>
+            {{ range . }}
+            <li>{{ . }}</li>
+            {{ end }}
+          </ol>
+          {{ end }}
+          {{ with .description_html }}
+          {{ . | safeHTML }}
+          {{ end }}
+        </div>
+        {{ with .buttons }}
+        <div class="pt-3">
+          {{ range . }}
+          <a class="btn btn-outline-secondary{{ if .disabled }} disabled{{ end }}"{{ if .disabled }} href="#"{{ else }} href="{{ .url }}"{{ end }}{{ with .style }} style="{{ . }}"{{ end }} target="_blank" rel="noopener">
+            <i class="{{ .icon }}"></i>{{ if .disabled }}&nbsp;{{ else }}&nbsp;&nbsp;{{ end }}{{ .text }}
+          </a>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+  </div>
+</section>

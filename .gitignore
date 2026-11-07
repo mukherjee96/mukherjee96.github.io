@@ -5,3 +5,9 @@ src
 gulpfile.js
 package-lock.json
 package.json
+
+# Hugo
+public/
+resources/_gen/
+.hugo_build.lock
+.DS_Store

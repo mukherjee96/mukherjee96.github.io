@@ -1,0 +1,67 @@
+{{ $exp := .Site.Data.experience }}
+<section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+  <div class="w-100">
+    <h2 class="mb-5">Experience</h2>
+
+    {{ range $exp.items }}
+    <div class="resume-item mb-5">
+      <div class="resume-content{{ if not .lead }} mb-3{{ end }}">
+        <h3 class="mb-0">{{ .role }}</h3>
+        <div class="subheading mb-3">
+          ({{ .period }})
+        </div>
+        {{ if .project_label }}
+        <p>
+          Project:
+          <a href="{{ .project_anchor }}">{{ .project_label }}</a>
+        </p>
+        {{ end }}
+        {{ if .description }}
+        <div>
+          {{ .description }}
+        </div>
+        {{ end }}
+        {{ if .lead }}
+        <p class="justify">
+          {{ .lead }}
+        </p>
+        {{ end }}
+        {{ if .social_text }}
+        <p class="start">
+          {{ .social_text | safeHTML }}
+        </p>
+        {{ end }}
+        {{ if .note }}
+        <p class="justify">{{ .note }}</p>
+        {{ end }}
+        {{ if .button }}
+        <a class="btn btn-outline-secondary" href="{{ .button.url }}" target="_blank" rel="noopener">
+          <i class="{{ .button.icon }}"></i>&nbsp;&nbsp;{{ .button.text }}
+        </a>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+    {{ with $exp.publication }}
+    <div class="resume-item">
+      <div class="resume-content">
+        <h3 class="mb-0">{{ .heading }}</h3>
+        <div class="subheading mb-3">
+          {{ .subheading }}
+        </div>
+        <strong>{{ .title }}</strong>
+        <p class="justify pt-2">
+          {{ .description }}
+        </p>
+        {{ with .button }}
+        <a class="btn btn-outline-secondary" href="{{ .url }}" target="_blank" rel="noopener">
+          <i class="{{ .icon }}"></i>&nbsp;&nbsp;{{ .text }}
+        </a>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+  </div>
+</section>

@@ -1,0 +1,36 @@
+categories:
+  - title: "Programming Languages"
+    list_class: "fa-ul mb-3"
+    items:
+      - "Java 8"
+      - "JavaScript"
+
+  - title: "Web Technologies"
+    list_class: "fa-ul mb-3"
+    items:
+      - "HTML5, CSS3"
+      - "React"
+      - "Ionic Framework"
+      - "RxJS"
+      - "Node.js"
+      - "Bootstrap 4"
+      - "WordPress"
+
+  - title: "Tools & Databases"
+    list_class: "fa-ul mb-3"
+    items:
+      - "Git & GitHub"
+      - "Maven"
+      - "Jenkins"
+      - "Firebase"
+      - "SQL and Relational Databases"
+      - "Linux/Windows Terminal"
+
+  - title: "Workflow"
+    list_class: "fa-ul mb-0"
+    items:
+      - "Continuous learning"
+      - "Ability to plan, organize and collaborate"
+      - "Work efficiently either individually or as part of a team"
+      - "Proficiency in solving problems"
+      - "Develop technical designs and participate in design reviews"
