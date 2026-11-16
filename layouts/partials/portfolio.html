@@ -42,7 +42,7 @@
         {{ with .buttons }}
         <div class="pt-3">
           {{ range . }}
-          <a class="btn btn-outline-secondary{{ if .disabled }} disabled{{ end }}"{{ if .disabled }} href="#"{{ else }} href="{{ .url }}"{{ end }}{{ with .style }} style="{{ . }}"{{ end }} target="_blank" rel="noopener">
+          <a class="btn btn-outline-secondary{{ if .disabled }} disabled{{ end }}"{{ if .disabled }} href="#"{{ else }} href="{{ .url }}"{{ end }}{{ with .style }} style="{{ . | safeCSS }}"{{ end }} target="_blank" rel="noopener">
             <i class="{{ .icon }}"></i>{{ if .disabled }}&nbsp;{{ else }}&nbsp;&nbsp;{{ end }}{{ .text }}
           </a>
           {{ end }}

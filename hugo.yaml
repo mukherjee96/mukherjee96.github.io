@@ -1,6 +1,6 @@
 baseURL: "https://mukherjee96.github.io/"
 title: "Aritra Mukherjee"
-languageCode: "en-us"
+locale: "en-us"
 
 # Disable taxonomies as this is a single-page resume site
 disableKinds:
